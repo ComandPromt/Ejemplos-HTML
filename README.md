@@ -23,4 +23,6 @@ Texto bailando
 # Zonas horarias
 [Zonas horarias](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/zonas_horarias.html)
 
+# Horario
+[Horario](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/horario.html)
 
