@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta charset="UTF-8">
+ <title>Ejercicio de cambio de apariencia a tablas con CSS</title>
+ <style type="text/css">
+    table,td,th{
+        border:1px solid black;
+        border-collapse:collapse;
+    }
+    table caption {
+        text-transform: uppercase;
+        font-weight: bold;
+        color:blue;    
+    }
+    thead,tfoot{
+        background-color:blue;
+        color:white;
+      
+    }
+    tfoot{
+        text-align: center;
+    }
+    .par{
+        background-color:aqua;
+    }
+    .impar{
+        background-color:burlywood;
+    }
+    tr:hover{
+        background-color: yellow;
+    }
+    a:hover{
+        background-color: green;
+    }
+</style>
+ </head>
+ <body>
+ <table>
+ <caption>Distancias planetarias</caption>
+ <thead>
+ <tr>
+ <th>Planeta</th>
+ <th>Distancias desde la Tierra</th>
+ <th>Web</th>
+ </tr>
+ </thead>
+ <tfoot>
+ <tr>
+ <td colspan="3">Astronom&iacute;a Gobierno de España</td>
+ </tr>
+ </tfoot>
+ <tbody>
+ <tr class="impar">
+ <td>Venus</td>
+ <td>108 Millones de Kilómetros</td>
+ <td><a href="http://es.wikipedia.org/wiki/Venus_(planeta)">Web Venus</a></td>
+ </tr>
+ <tr class="par">
+ <td>Saturno</td>
+ <td>1.281 Millones de Kilómetros</td>
+ <td><a href="http://es.wikipedia.org/wiki/Saturno_(planeta)">Web Saturno</a></td>
+ </tr>
+ <tr class="impar">
+ <td>Urano</td>
+ <td>2.720 Millones de Kilómetros</td>
+ <td><a href="http://es.wikipedia.org/wiki/Urano_(planeta)">Web Urano</a></td>
+ </tr>
+ <tr class="par">
+ <td>Neptuno</td>
+ <td>4.504 Millones de Kilómetros</td>
+ <td><a href="http://es.wikipedia.org/wiki/Neptuno_(planeta)">Web Neptuno</a></td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
