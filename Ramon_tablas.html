@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
  <head>
         <meta charset="UTF-8">
  <title>Ejercicio de cambio de apariencia a tablas con CSS</title>
- <style type="text/css">
+ <style>
     table,td,th{
         border:1px solid black;
         border-collapse:collapse;
@@ -27,7 +27,7 @@
     .impar{
         background-color:burlywood;
     }
-    tr:hover{
+    tbody tr:hover{
         background-color: yellow;
     }
     a:hover{
@@ -45,33 +45,34 @@
  <th>Web</th>
  </tr>
  </thead>
+ <tbody>
+    <tr class="impar">
+    <td>Venus</td>
+    <td>108 Millones de Kilómetros</td>
+    <td><a href="http://es.wikipedia.org/wiki/Venus_(planeta)">Web Venus</a></td>
+    </tr>
+    <tr class="par">
+    <td>Saturno</td>
+    <td>1.281 Millones de Kilómetros</td>
+    <td><a href="http://es.wikipedia.org/wiki/Saturno_(planeta)">Web Saturno</a></td>
+    </tr>
+    <tr class="impar">
+    <td>Urano</td>
+    <td>2.720 Millones de Kilómetros</td>
+    <td><a href="http://es.wikipedia.org/wiki/Urano_(planeta)">Web Urano</a></td>
+    </tr>
+    <tr class="par">
+    <td>Neptuno</td>
+    <td>4.504 Millones de Kilómetros</td>
+    <td><a href="http://es.wikipedia.org/wiki/Neptuno_(planeta)">Web Neptuno</a></td>
+    </tr>
+    </tbody>
  <tfoot>
  <tr>
  <td colspan="3">Astronom&iacute;a Gobierno de España</td>
  </tr>
  </tfoot>
- <tbody>
- <tr class="impar">
- <td>Venus</td>
- <td>108 Millones de Kilómetros</td>
- <td><a href="http://es.wikipedia.org/wiki/Venus_(planeta)">Web Venus</a></td>
- </tr>
- <tr class="par">
- <td>Saturno</td>
- <td>1.281 Millones de Kilómetros</td>
- <td><a href="http://es.wikipedia.org/wiki/Saturno_(planeta)">Web Saturno</a></td>
- </tr>
- <tr class="impar">
- <td>Urano</td>
- <td>2.720 Millones de Kilómetros</td>
- <td><a href="http://es.wikipedia.org/wiki/Urano_(planeta)">Web Urano</a></td>
- </tr>
- <tr class="par">
- <td>Neptuno</td>
- <td>4.504 Millones de Kilómetros</td>
- <td><a href="http://es.wikipedia.org/wiki/Neptuno_(planeta)">Web Neptuno</a></td>
- </tr>
- </tbody>
+
  </table>
  </body>
 </html>
