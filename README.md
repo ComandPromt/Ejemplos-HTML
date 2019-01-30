@@ -4,15 +4,17 @@ Texto bailando
 
 # Calculadora
 ![Calculadora](calculadora.png)
-[Calculadora](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/calculadora.html)
 
+[Calculadora](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/calculadora.html)
 
 # Conversor de bytes
 ![Conversor](conversor.png)
+
 [Conversor de bytes](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/conversor_bytes.html)
 
 # Inches to cm
 ![Inches 2 Centimetres](inches_to_cm.png)
+
 [Inches to cm](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/inches_to_cm.html)
 
 # Text 2 mp3
@@ -20,9 +22,6 @@ Texto bailando
 
 # Text 2 loquendo
 [Text 2 loquendo](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/texto_2_loquendo.html)
-
-# Traductor
-[Translate](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/translate.html)
 
 # Zonas horarias
 ![Zonas horarias](zonas_horarias.png)
@@ -34,4 +33,5 @@ Texto bailando
 
 # Tablas con CSS básico
 ![Tabla con CSS](tablas.png)
+
 [Tabla con CSS](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/Ramon_tablas.html)
