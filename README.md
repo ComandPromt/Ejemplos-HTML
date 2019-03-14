@@ -1,3 +1,15 @@
+# Menu siempre visible
+
+![Menu](prev/menu.png)
+
+[Menu](https://github.com/ComandPromt/Ejemplos-HTML/blob/master/Menu_siempre_visible.html)
+
+# Galeria
+
+![Galeria](prev/galeria.png)
+
+[Galeria](https://github.com/ComandPromt/Ejemplos-HTML/tree/master/02.Galer%C3%ADa)
+
 # Harlem Shake
 Texto bailando
 [Harlem-Shake](https://github.com/ComandPromt/Ejemplos-HTML/tree/master/harlem-shake)
